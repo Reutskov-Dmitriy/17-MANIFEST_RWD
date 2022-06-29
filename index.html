@@ -3,10 +3,262 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/vars.css">
+	<link rel="stylesheet" href="css/style.css">
+	
 	<title>Manifest</title>
 </head>
 <body>
+	 <!-- SHELL FOR DEMONSTRATION -->
+	<div class="wrapper">
+		<div class="page">
+
+			<!-- CONTENT -->
+			<header class="header">	
+				<div class="container">
+					<div class="header__row">
+						<div class="header__logo">
+							<a href="#"><img src="assets/images/logo.png" alt=""></a>
+						</div>
+						<div class="wrap-row">
+							<nav class="header-menu menu">
+								<!-- <div class="header-menu__icon">
+									<img src="assets/images/icons/hamburger.svg" alt="closesquare">
+								</div> -->
+								<input type="checkbox" id="burgerToggle">
+								<ul class="menu__list">
+									<li><a href="#">HOME</a></li>
+									<li><a href="#">ABOUT</a></li>
+									<li><a href="#">WORKS</a></li>
+									<li><a href="#">BLOG</a></li>
+									<li><a href="#">CONTACT</a></li>
+								</ul>
+							</nav>
+							<button class="header__search">
+								<img src="assets/images/icons/search.svg" alt="search">
+							</button>
+						</div>
+						<button class="header-burger">
+							<label for="burgerToggle"><img src="assets/images/icons/hamburger.svg" alt="hamburger"></label>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="main-slogan">
+					<h2 class="main-slogan_title">Manifest is a newborn theme.
+						Clean, simple and fast.</h2>
+				</section>
 	
+				<div class="container">
+					<section class="blog">
+						<h2 class="blog__title">Blog</h2>
+						<div class="list-posts">
+							<div class="list-posts__column">
+	
+								<article class="ux-design post">
+									<div class="post__reverce">
+										<div class="post__column">
+											<div class="wrap">
+												<div class="ux-design__info">
+													<p class="ux-design__tag">Technology, Interface Design</p>
+													<h3 class="ux-design__title">Using UX Design to Build a Sustainable Future
+													</h3>
+													<p class="ux-design_date">6 May, 2020</p>
+													<span class="ux-design__excerpt">Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this.	<a href="#"><img src="assets/images/icons/arrow.png" alt="arrow"></a></span> 
+												</div>
+											</div>
+										</div>
+										<div class="post__column">
+											<div class="ux-design__img">
+												<img src="assets/images/ux-design.png" alt="ux-design">
+											</div>
+										</div>
+									</div>
+								</article>
+			
+								<article class="ux-design post">
+									<div class="post__row">
+										<div class="post__column">
+											<div class="wrap">
+												<div class="ux-design__info">
+													<p class="ux-design__tag">Technology, Interface Design</p>
+													<h3 class="ux-design__title">Using UX Design to Build a Sustainable Future
+													</h3>
+													<p class="ux-design_date">6 May, 2020</p>
+													<span class="ux-design__excerpt">Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this.	<a href="#"><img src="assets/images/icons/arrow.png" alt="arrow"></a></span> 
+												</div>
+											</div>
+										</div>
+										<div class="post__column">
+											<div class="ux-design__img">
+												<img src="assets/images/blog-image.png" alt="ux-design">
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</section>
+	
+					<section class="latest-posts posts">
+						<div class="posts__heading">
+							<h2 class="title">Latest Posts</h2>
+							<div class="posts__link">
+								<a href="#">View All <img src="assets/images/icons/arrow.png" alt="arrow"></a>
+							</div>
+						</div>
+						<div class="posts-list">
+							<div class="posts-list__row">
+	
+								<article class="post post--column3">
+									<figure class="post__img post__img--Size">
+										<img src="assets/images/ux-traffic-latest.png" alt="ux-traffic">
+									</figure>
+									<figcaption>
+										<p class="post__tag">Interface Design</p>
+										<p class="post__date">8 June, 2020</p>
+									</figcaption>
+									<div class="post__info">
+										<h3 class="post__title">UX traffic light colours
+										</h3>
+										<p class="post__excerpt">Transformation has to be driven by everybody, not just by climate groups, and we have a responsibility to use our influence to drive this.								
+										</p>
+									</div>
+								</article>
+	
+								<article class="post post--column3">
+									<figure class=" post__img post__img--Size">
+										<img  src="assets/images/ux-design-latest.png" alt="ux-design">
+									</figure>
+									<figcaption>
+										<p class="post__tag">Technology</p>
+										<p class="post__date">6 May, 2020</p>
+									</figcaption>
+									<div class="post__info">
+										<h3 class="post__title">Using UX Design to Build a Sustainable Future
+										</h3>
+										<p class="post__excerpt">UI has to make a huge visual difference between warning, an alert and a success.								
+										</p> 
+									</div>
+								</article>
+	
+								<article class="post post--column3">
+									<figure class="post__img post__img--Size">
+										<img src="assets/images/creativity-latest.png" alt="creativity">
+									</figure>
+									<figcaption>
+										<p class="post__tag">Visual Design</p>
+										<p class="post__date">8 June, 2020</p>
+									</figcaption>
+									<div class="post__info">
+										<h3 class="post__title">Creativity vs. UX
+										</h3>
+										<p class="post__excerpt">Is it possible to create a delightful user experience without following best UX practices?								
+										</p> 
+									</div>
+								</article>
+		
+							</div>
+						</div>
+					</section>
+	
+					<section class="popular posts">
+						<div class="posts__heading">
+							<h2 class="title">The Most Popular</h2>
+							<div class="posts__link">
+								<a href="#">View All <img src="assets/images/icons/arrow.png" alt="arrow"></a>
+							</div>
+						</div>
+						<div class="posts-list">
+							<div class="posts-list__row">
+	
+								<article class="post post--column2">
+									<figure class="post__img post__img--width">
+										<img src="assets/images/popular1.png" alt="ux-traffic">
+									</figure>
+									<figcaption>
+										<p class="post__tag">Interface Design</p>
+										<p class="postn__date">8 June, 2020</p>
+									</figcaption>
+									<div class="post__info">
+										<h3 class="post__title">Mentorship Match — How a simple LinkedIn feature can boost diversity
+										</h3>
+										<p class="post__excerpt">Mentorship Match — How a simple LinkedIn feature can boost diversity								
+										</p>
+									</div>
+								</article>
+	
+								<article class="post post--column2">
+									<figure class="post__img post__img--width">
+										<img src="assets/images/popular-creativity.png" alt="ux-design">
+									</figure>
+									<figcaption>
+										<p class="post__tag">Visual Design</p>
+										<p class="post__date">8 June, 2020</p>
+									</figcaption>
+									<div class="post__info">
+										<h3 class="post__title">Creativity vs. UX
+										</h3>
+										<p class="post__excerpt">Is it possible to create a delightful user experience without following best UX practices?								
+										</p> 
+									</div>
+								</article>
+		
+							</div>
+						</div>
+						<button class="posts-list__btn">Load More</button>
+					</section>
+	
+					<section class="about">
+						<div class="about__link">
+							<a href="#">Full-time UI/UX designer
+								Head of Design at VeronaLabs.com <img src="assets/images/icons/arrow.png" alt="arrow"></a>
+						</div>
+						<div>
+							<p>We work with clients around the world from our headquarters in Charleston, South Carolina.</p>
+							<p>We focus on naming, branding, brand narratives, website design and development, and brand experiences.</p>
+						</div>
+					</section>
+	
+				</div>
+				
+				<!-- <div class="burger-glass">
+					<nav class="burger-menu menu">
+						<button class="burger-menu_close"><label for="burgerToggle"><img src="assets/images/icons/closesquare.svg" alt="closesquare"></label>
+						</button>
+						<ul class="burger-menu_list">
+							<li class="menu_link"><a href="#" >HOME</a></li>
+							<li class="menu_link"><a href="#" >ABOUT</a></li>
+							<li class="menu_link"><a href="#" >WORKS</a></li>
+							<li class="menu_link"><a href="#" >BLOG</a></li>
+							<li class="menu_link"><a href="#" >CONTACT</a></li>
+						</ul>
+					</nav>
+					<label for="burgerToggle"></label>
+				</div> -->
+			</main>
+	
+			<footer class="footer">
+				<div class="footer__contacts">
+					<h2 class="footer__title">Need a project?</h2>
+					<p>(239) 555-0108</p>
+					<p>tanya.hill@example.com</p>
+				</div>
+				<div class="footer__copyright">
+					<p>© Copyright Manifest Theme. Allrights reserved</p>
+				</div>
+				<ul class="footer__social">
+					<li class="footer__social__link">
+						<a href="#">
+							
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>

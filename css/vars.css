@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url(../assets/fonts/AnyConv.com__Lato-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url(../assets/fonts/AnyConv.com__Lato-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'RedHatDisplay-SemiBold';
+	src: url(../assets/fonts/AnyConv.com__RedHatDisplay-SemiBold.woff) format('woff');
+}
+@font-face {
+	font-family: 'RedHatDisplay-Medium';
+	src: url(../assets/fonts/AnyConv.com__RedHatDisplay-Medium.woff) format('woff');
+}
+@font-face {
+	font-family: 'RedHatDisplay-Regular';
+	src: url(../assets/fonts/AnyConv.com__RedHatDisplay-Regular.woff) format('woff');
+}
+
+:root{
+	--font-family-lb: 'Lato-Bold', sans-serif;
+	--font-family-lr: 'Lato-Regular', sans-serif;
+	--font-family-sr: 'RedHatDisplay-SemiBold', sans-serif;
+	--font-family-rm: 'RedHatDisplay-Medium', sans-serif;
+	--font-family-rr: 'RedHatDisplay-Regular', sans-serif;
+	
+}
