@@ -17,8 +17,11 @@ body {
 
 }
 
+
+
 a {
 	color: #000000;
+
 }
 
 /* HEADER */
@@ -54,10 +57,32 @@ a {
 
 }
 
+
+
 .menu__list {
 	display: flex;
 	flex-direction: row;
 	gap: 2.92vw;
+	height: 40px;
+
+}
+
+.menu__list a {
+	transition: 1s;
+}
+
+.menu__list a:hover::after {
+	display: block;
+
+}
+
+.menu__list a::after {
+	content: '';
+	width: 40px;
+	display: none;
+	margin: auto;
+	border: 1px solid #000000;
+
 }
 
 .header__search {
@@ -117,9 +142,9 @@ input:checked .header-burger {
 		position: fixed;
 		inset: 0;
 		background-color: #565656;
-		padding: 150px 0 0 0;
+		padding: 130px 0px 0px 0px;
 		transition: 1s;
-
+		overflow: auto;
 
 	}
 
@@ -136,7 +161,7 @@ input:checked .header-burger {
 	.menu__list a {
 		color: #ffffff;
 		font-size: 24px;
-		overflow: auto;
+
 	}
 
 	.header__search {
